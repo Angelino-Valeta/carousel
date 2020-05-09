@@ -7,6 +7,9 @@ function plusCarousel(n){
   carousel(indexCarousel += n)
 }
 
+function indicatorThumbinail(n){
+  carousel(indexCarousel = n)
+}
 
 function carousel(n){
 
