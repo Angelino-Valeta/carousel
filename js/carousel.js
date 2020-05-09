@@ -23,7 +23,9 @@ function carousel(n){
   for(i = 0; i < indicator.length; i++){
     indicator[i].classList.remove('active-dot')
   }
-  mycarousel[indexCarousel-1].classList.toggle('carousel');
+  
+  //mycarousel[indexCarousel-1].classList.remove('carousel');
+  mycarousel[indexCarousel-1].style.display = 'block'
   indicator[indexCarousel-1].classList.toggle('active-dot')
 
 }
