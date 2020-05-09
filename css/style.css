@@ -9,7 +9,7 @@ body{
 
 /*display none default*/
 .carousel{
-  display: block;
+  display: none;
 }
 
 .carousel img{
