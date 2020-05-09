@@ -3,6 +3,11 @@ let indexCarousel = 1
 
 carousel(indexCarousel)
 
+function plusCarousel(n){
+  carousel(indexCarousel += n)
+}
+
+
 function carousel(n){
 
   const mycarousel = document.querySelectorAll('.carousel')
