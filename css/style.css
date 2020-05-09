@@ -35,6 +35,27 @@ body{
   opacity: 0.8;  
 }
 
+.previus, .next{
+  position: absolute;
+  top: 45%;
+  font-size: 28px;
+  padding: 12px 24px;
+  color: #f8f8f8;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+  
+}
+
+.next{
+  right: 0;
+}
+.previus:hover,
+.next:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 
 @media screen and (max-width: 768px){
   .carousel img{
