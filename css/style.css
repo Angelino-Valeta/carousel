@@ -3,6 +3,44 @@ body{
   margin: 0;
   font-family: Arial;
 }
+
+.header{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.nav-top{
+
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-top ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+
+}
+.nav-top ul li{
+  float: left;
+}
+.nav-top li a{
+  color: orange;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.nav-top li a:hover{
+  background-color: orange;
+  color: #fff;
+}
+
 .carousel-container{
   position: relative;
 }
