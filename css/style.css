@@ -191,6 +191,19 @@ body{
 }
 
 
+/*TOUR */
+#Tour{
+  margin-top: 100px;
+  background-color: orangered;
+  color: #f8f8f8;
+  padding: 50px 30px;
+}
+
+.tour-date{
+  text-align: center;
+  
+}
+
 @media screen and (max-width: 768px){
   .carousel img{
     height: auto;
