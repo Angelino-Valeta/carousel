@@ -1,7 +1,7 @@
 let indexCarousel = 1
 
 carousel(indexCarousel)
-carouselAuto()
+//carouselAuto()
 
 function plusCarousel(n) {
   carousel(indexCarousel += n)
